@@ -1,4 +1,5 @@
 # 🌍 Awesome Supply Chain Europe
+> 🇨🇳 [中文版本 / Chinese Version](https://hansato.github.io/zh/)
 
 > **A curated, open-source guide to EU supply chain compliance, logistics, and operations.**  
 > 🏢 Maintained by [**Hansato Global Sourcing**](https://www.hansato.com) | 📅 Last Updated: August 2026
