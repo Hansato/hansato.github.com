@@ -180,7 +180,7 @@ Pull requests and suggestions are welcome! If you have a resource that belongs h
 
 ## 📄 License
 
-This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+This work is licensed under the [MIT License](LICENSE). You are free to share and adapt this guide, provided you retain the original copyright notice and attribution to Hansato Global Sourcing.
 
 ---
 
