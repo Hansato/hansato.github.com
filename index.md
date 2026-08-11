@@ -1,3 +1,9 @@
+---
+layout: default
+title: EU Supply Chain Compliance Guide | Hansato
+description: Master EU regulations including CRMA, CBAM, EUDR, and CSDDD. Practical logistics market data and compliance strategies for global exporters.
+---
+
 # 🌍 Awesome Supply Chain Europe
 > [中文版本 / Chinese Version](https://hansato.github.io/zh/)
 
