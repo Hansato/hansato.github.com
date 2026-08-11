@@ -1,3 +1,9 @@
+---
+layout: default
+title: 欧盟供应链合规指南 | 汉萨拓 Hansato
+description: 中国出口商必读：全面解析CRMA、CBAM、EUDR、CSDDD等欧盟新规，提供供应链合规、物流及认证实战指南。
+---
+
 # 🌍 面向欧盟市场的中国出口商合规与供应链指南
 
 > **最后更新**: 2026年8月 | **维护者**: [Hansato Global Sourcing](https://www.hansato.com)  
