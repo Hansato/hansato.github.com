@@ -1,6 +1,6 @@
 ---
 layout: default
-title: EU Supply Chain Compliance Guide | Hansato
+title: Hansato Global Sourcing: Awesome B2B Supply Chain Europe
 description: Master EU regulations including CRMA, CBAM, EUDR, and CSDDD. Practical logistics market data and compliance strategies for global exporters.
 ---
 
