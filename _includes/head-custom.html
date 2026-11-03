@@ -1,33 +1,40 @@
-<!-- Hansato Brand Assets - Dark Theme Header -->
+<!-- Hansato Dark Theme + Brand Assets -->
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%230a1d3d'/%3E%3Ctext x='16' y='22' font-family='Arial,sans-serif' font-weight='bold' font-size='18' fill='%23ffffff' text-anchor='middle'%3EH%3C/text%3E%3C/svg%3E">
 
 <style>
   :root {
     --hansato-navy: #0a1d3d;
+    --hansato-navy-light: #132d5e;
     --hansato-amber: #ffb300;
-    --hansato-light: #f6f4ef;
-    --hansato-gray: #6b7280;
     --hansato-white: #ffffff;
+    --hansato-gray: #9ca3af;
+    --hansato-border: #1e3a6e;
   }
 
-  /* === DARK HEADER BAR WITH WHITE LOGO === */
+  /* === GLOBAL DARK MODE === */
+  body, .page-content, .wrapper, main, article {
+    background-color: var(--hansato-navy) !important;
+    color: var(--hansato-white) !important;
+  }
+
+  /* Header bar with inline SVG logo */
   .site-header::before, header::before, .page-header::before {
     content: '';
     display: block;
     height: 60px;
-    background: var(--hansato-navy) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 40'%3E%3Ctext x='12' y='28' font-family='Arial,Helvetica,sans-serif' font-weight='bold' font-size='22' fill='%23ffffff' letter-spacing='2'%3EHANSATO%3C/text%3E%3Crect x='12' y='34' width='108' height='3' rx='1' fill='%23ffb300'/%3E%3C/svg%3E") no-repeat 24px center;
+    background: var(--hansato-navy-light) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 40'%3E%3Ctext x='12' y='28' font-family='Arial,Helvetica,sans-serif' font-weight='bold' font-size='22' fill='%23ffffff' letter-spacing='2'%3EHANSATO%3C/text%3E%3Crect x='12' y='34' width='108' height='3' rx='1' fill='%23ffb300'/%3E%3C/svg%3E") no-repeat 24px center;
     background-size: auto 32px;
     border-bottom: 3px solid var(--hansato-amber);
     margin-bottom: 2rem;
   }
 
   /* Links */
-  a { color: var(--hansato-navy); text-decoration: underline; text-underline-offset: 2px; }
-  a:hover { color: var(--hansato-amber); }
+  a { color: var(--hansato-amber); text-decoration: underline; text-underline-offset: 3px; }
+  a:hover { color: var(--hansato-white); }
 
-  /* Headings with amber accent */
-  h2, h3, h4 {
-    color: var(--hansato-navy);
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--hansato-white) !important;
     border-left: 4px solid var(--hansato-amber);
     padding-left: 12px;
     margin-top: 2rem;
@@ -35,19 +42,29 @@
 
   /* Tables */
   table { border-collapse: collapse; width: 100%; margin: 1.5rem 0; }
-  th { background: var(--hansato-navy); color: var(--hansato-white); padding: 10px 14px; text-align: left; font-weight: 600; }
-  td { padding: 10px 14px; border-bottom: 1px solid #e5e7eb; }
-  tr:nth-child(even) { background: var(--hansato-light); }
+  th { background: var(--hansato-navy-light); color: var(--hansato-amber); padding: 10px 14px; text-align: left; font-weight: 600; border-bottom: 2px solid var(--hansato-amber); }
+  td { padding: 10px 14px; border-bottom: 1px solid var(--hansato-border); color: var(--hansato-white); }
+  tr:nth-child(even) { background: rgba(255,255,255,0.04); }
 
   /* Blockquotes */
   blockquote {
     border-left: 4px solid var(--hansato-amber);
-    background: var(--hansato-light);
+    background: var(--hansato-navy-light);
     padding: 14px 18px;
     margin: 1.5rem 0;
-    color: var(--hansato-navy);
+    color: var(--hansato-white);
     font-style: normal;
   }
+
+  /* Lists */
+  li { color: var(--hansato-white); }
+  strong { color: var(--hansato-amber); }
+
+  /* Code blocks */
+  code, pre { background: var(--hansato-navy-light) !important; color: var(--hansato-white) !important; border: 1px solid var(--hansato-border); }
+
+  /* Horizontal rules */
+  hr { border-color: var(--hansato-border); }
 
   /* Footer */
   footer, .site-footer {
@@ -57,4 +74,8 @@
     font-size: 0.85em;
     color: var(--hansato-gray);
   }
+
+  /* Override any light-theme defaults from Jekyll/minima */
+  .site-title, .site-nav, .post-title { color: var(--hansato-white) !important; }
+  p, ol, ul, dl { color: var(--hansato-white); }
 </style>
