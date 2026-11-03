@@ -121,7 +121,7 @@ Downloadable forensic verification tools from Hansato Trade Compliance Desk.
 - [buildingSMART IFC Standards](https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2_TC1/HTML/)
 
 ### Hansato Knowledge Base
-- [Browse All Strategic Sourcing Briefings](https://www.hansato.com/topics/strategic-sourcing)
+- [Browse All Strategic Sourcing Topics](https://www.hansato.com/topics)
 - [Contact Hansato Trade Compliance Desk](https://www.hansato.com/contact)
 
 ---
