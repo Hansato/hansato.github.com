@@ -22,7 +22,7 @@ Understanding EU regulations is complex, but you don't have to do it alone. At *
 
 ## 📌 Contents
 
-- [🇪 EU Policy & Compliance](#-eu-policy--compliance)
+- [🇪🇺 EU Policy & Compliance](#-eu-policy--compliance)
 - [🌿 Sustainable Materials & Green Building](#-sustainable-materials--green-building)
 - [⚖️ Incoterms & Risk Transfer](#-incoterms--risk-transfer)
 - [🌏 Asia-Pacific & Global Trade Hubs](#-asia-pacific--global-trade-hubs)
@@ -52,10 +52,10 @@ Understanding the regulatory landscape is the first step for any supply chain op
 
 For architects, specifiers, and procurement teams targeting LEED, BREEAM, DGNB, or WELL certifications.
 
-- **Engineered Bamboo Sourcing Guide** – Forensic verification protocols for moisture stability, adhesive REACH compliance, structural batch testing, EUDR traceability, EPD certification, and BIM integration. [Read Full Briefing](https://www.hansato.com/sourcing-engineered-bamboo-china-quality-compliance)
+- **Engineered Bamboo Sourcing Guide** – Forensic verification protocols for moisture stability, adhesive REACH compliance, structural batch testing, EUDR traceability, EPD certification, and BIM integration. [Read Engineered Bamboo Sourcing Briefing](https://www.hansato.com/sourcing-engineered-bamboo-china-quality-compliance)
 - **EPD Standards (ISO 14025)** – Type III Environmental Product Declarations required for green building credits. Verify suppliers hold valid EPDs published on recognized program operators (Environdec, IBU).
 - **BIM Integration Requirements** – Open-format BIM objects (IFC 4.x, COBie) with embedded material properties and EPD linkage. Essential for public procurement and digital twin workflows.
-- **Sustainable Construction Materials Hub** – Browse all Hansato briefings on eco-friendly sourcing and compliance. [View Topic Page](https://www.hansato.com/topics/strategic-sourcing)
+- **Sustainable Construction Materials Hub** – Browse all Hansato briefings on eco-friendly sourcing and compliance. [Browse Sustainable Materials Topics](https://www.hansato.com/topics/strategic-sourcing)
 
 ---
 
@@ -63,7 +63,7 @@ For architects, specifiers, and procurement teams targeting LEED, BREEAM, DGNB, 
 
 Understanding how trade terms affect regulatory liability and data ownership.
 
-- **Incoterms as Data Gates** – How FOB, CIF, and DDP terms impact GPSR data ownership, CBAM reporting liability, and EUDR due diligence responsibilities. [Read Full Briefing](https://www.hansato.com/incoterms-compliance-risk-gpsr-data-ownership)
+- **Incoterms as Data Gates** – How FOB, CIF, and DDP terms impact GPSR data ownership, CBAM reporting liability, and EUDR due diligence responsibilities. [Read Incoterms Compliance Risk Briefing](https://www.hansato.com/incoterms-compliance-risk-gpsr-data-ownership)
 - **Importer of Record Liability** – Why physical risk transfer ≠ regulatory liability transfer. Strict liability principles apply regardless of Incoterm choice.
 - **DDP Red Flags** – When DDP shifts too much compliance burden onto non-EU sellers without local infrastructure. Consider FCA/DAP alternatives for safer market entry.
 
@@ -73,10 +73,10 @@ Understanding how trade terms affect regulatory liability and data ownership.
 
 Leveraging Hong Kong’s neutral jurisdiction and proximity to Asian manufacturing clusters for compliant global trade.
 
-- **Global Sourcing Partner Architecture** – IP protection, sub-tier visibility, and EU compliance bridging via dual-hub models (Asia Execution + EU Compliance). [Read Full Briefing](https://www.hansato.com/global-sourcing-partner-asia-eu-border-gap)
-- **Hong Kong Compliance Gateway** – Using HK entities for tooling ownership, payment routing, dispute resolution, and neutral-jurisdiction contracting in EU-bound supply chains. [Read Full Briefing](https://www.hansato.com/hong-kong-compliance-gateway-eu-supply-chain)
-- **China Supplier Verification Methods** – Entity, factory, and document substance audits beyond brochures and certificates. [Read Full Briefing](https://www.hansato.com/china-supplier-verification-methods)
-- **Vietnam & Southeast Asia Sourcing** – Alternative manufacturing hubs for tariff diversification and supply chain resilience. [Explore Topics](https://www.hansato.com/topics/strategic-sourcing)
+- **Global Sourcing Partner Architecture** – IP protection, sub-tier visibility, and EU compliance bridging via dual-hub models (Asia Execution + EU Compliance). [Read Global Sourcing Partner Briefing](https://www.hansato.com/global-sourcing-partner-asia-eu-border-gap)
+- **Hong Kong Compliance Gateway** – Using HK entities for tooling ownership, payment routing, dispute resolution, and neutral-jurisdiction contracting in EU-bound supply chains. [Read HK Compliance Gateway Briefing](https://www.hansato.com/hong-kong-compliance-gateway-eu-supply-chain)
+- **China Supplier Verification Methods** – Entity, factory, and document substance audits beyond brochures and certificates. [Read China Supplier Verification Briefing](https://www.hansato.com/china-supplier-verification-methods)
+- **Vietnam & Southeast Asia Sourcing** – Alternative manufacturing hubs for tariff diversification and supply chain resilience. [Explore Strategic Sourcing Topics](https://www.hansato.com/topics/strategic-sourcing)
 
 ---
 
@@ -102,12 +102,12 @@ Leveraging Hong Kong’s neutral jurisdiction and proximity to Asian manufacturi
 
 Downloadable forensic verification tools from Hansato Trade Compliance Desk.
 
-- **Engineered Bamboo Due Diligence Checklist** – 6-section protocol covering Moisture, Adhesive, Structural, EUDR, Production Substance, and EPD/BIM/DPP readiness. [Download PDF Checklist](https://www.hansato.com/downloads/hansato-engineered-bamboo-sourcing-checklist-v1.pdf)
-- **Global Sourcing Hub Due Diligence Checklist** – Assess supplier operational substance beyond certificates. [Download PDF Checklist](https://www.hansato.com/downloads/hansato-global-sourcing-hub-due-diligence-checklist-2026-EN.pdf)
-- **Transshipment Origin Forensics Checklist** – Verify substantial transformation and avoid illegal origin laundering. [Download PDF Checklist](https://www.hansato.com/downloads/hansato-transshipment-origin-forensics-checklist-2026-EN.pdf)
-- **Industrial Components Supplier Audit Checklist** – Technical verification for precision manufacturing partners. [Download PDF Checklist](https://www.hansato.com/downloads/hansato-industrial-components-sourcing-supplier-audit-checklist-2026-EN.pdf)
-- **EUDR Geolocation & Due Diligence Checklist** – Prepare polygon-level harvest data and mass-balance reconciliation. [Download PDF Checklist](https://www.hansato.com/downloads/hansato-eudr-geolocation-due-diligence-checklist-2026-EN.pdf)
-- **EU Entity & Market Entry Readiness Checklist** – Audit RP integration, tech file maintenance, and response protocols. [Download PDF Checklist](https://www.hansato.com/downloads/hansato-eu-market-entry-checklist-2026-EN.pdf)
+- **Engineered Bamboo Due Diligence Checklist** – 6-section protocol covering Moisture, Adhesive, Structural, EUDR, Production Substance, and EPD/BIM/DPP readiness. [Download Bamboo Sourcing Checklist PDF](https://www.hansato.com/downloads/hansato-engineered-bamboo-sourcing-checklist-v1.pdf)
+- **Global Sourcing Hub Due Diligence Checklist** – Assess supplier operational substance beyond certificates. [Download Global Sourcing Checklist PDF](https://www.hansato.com/downloads/hansato-global-sourcing-hub-due-diligence-checklist-2026-EN.pdf)
+- **Transshipment Origin Forensics Checklist** – Verify substantial transformation and avoid illegal origin laundering. [Download Transshipment Origin Checklist PDF](https://www.hansato.com/downloads/hansato-transshipment-origin-forensics-checklist-2026-EN.pdf)
+- **Industrial Components Supplier Audit Checklist** – Technical verification for precision manufacturing partners. [Download Industrial Components Audit Checklist PDF](https://www.hansato.com/downloads/hansato-industrial-components-sourcing-supplier-audit-checklist-2026-EN.pdf)
+- **EUDR Geolocation & Due Diligence Checklist** – Prepare polygon-level harvest data and mass-balance reconciliation. [Download EUDR Geolocation Checklist PDF](https://www.hansato.com/downloads/hansato-eudr-geolocation-due-diligence-checklist-2026-EN.pdf)
+- **EU Entity & Market Entry Readiness Checklist** – Audit RP integration, tech file maintenance, and response protocols. [Download EU Market Entry Checklist PDF](https://www.hansato.com/downloads/hansato-eu-market-entry-checklist-2026-EN.pdf)
 
 ---
 
