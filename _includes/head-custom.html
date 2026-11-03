@@ -1,6 +1,9 @@
-<!-- Hansato Brand Assets -->
-<link rel="icon" type="image/png" href="https://www.hansato.com/wp-content/uploads/2026/09/hansato-logo-blue-01-scaled.png" sizes="32x32">
-<link rel="apple-touch-icon" href="https://www.hansato.com/wp-content/uploads/2026/09/hansato-logo-blue-01-scaled.png">
+<!-- Override restrictive CSP for GitHub Pages -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' https://cdnjs.cloudflare.com;">
+
+<!-- Hansato Brand Assets - Local -->
+<link rel="icon" type="image/png" href="/assets/favicon.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/assets/favicon.png">
 
 <style>
   /* === HANSATO BRAND STYLING === */
@@ -16,7 +19,7 @@
     content: '';
     display: block;
     height: 56px;
-    background: var(--hansato-navy) url('https://www.hansato.com/wp-content/uploads/2026/09/hansato-logo-blue-01-scaled.png') no-repeat 20px center;
+    background: var(--hansato-navy) url('/assets/logo.svg') no-repeat 20px center;
     background-size: auto 36px;
     border-bottom: 3px solid var(--hansato-amber);
     margin-bottom: 2rem;
