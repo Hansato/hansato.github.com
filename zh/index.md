@@ -1,141 +1,142 @@
 ---
 layout: default
-title: 欧盟供应链合规指南 | 汉萨拓 Hansato
-description: 中国出口商必读：全面解析CRMA、CBAM、EUDR、CSDDD等欧盟新规，提供供应链合规、物流及认证实战指南。
+title: "汉萨拓全球寻源：面向欧盟市场的中国出口商合规与供应链指南"
+description: "开源指南涵盖欧盟法规（GPSR、CBAM、EUDR、PPWR）、可持续材料采购、Incoterms风险转移及香港全球供应链架构。助力中国制造升级并赢得全球信任。"
+author: "Hansato Global Sourcing"
 ---
 
 # 🌍 面向欧盟市场的中国出口商合规与供应链指南
+> [English Version / 英文版](https://hansato.github.io/)
 
-> **最后更新**: 2026年8月 | **维护者**: [Hansato Global Sourcing](https://www.hansato.com)  
-> 🌐 [English Version / 英文版](https://hansato.github.io/)
-
-欢迎！本开源指南旨在帮助中国制造商、出口商和供应链管理者系统性地了解并应对进入欧盟市场所需的核心法规、认证标准、物流实务与数字化工具。
-
-欧盟市场的合规要求正在快速演变。我们坚信，**透明的信息与前瞻性的准备是中国制造升级并赢得全球信任的关键**。本指南完全免费、开源，欢迎社区共同维护与补充。
+> **一份关于跨境贸易合规、物流运营与实质控制的开源精选指南。**  
+> 🏢 维护者：[**汉萨拓全球寻源 (Hansato Global Sourcing)**](https://www.hansato.com/zh) | 📅 最后更新：2026年11月
 
 ---
 
-## 📑 目录 (Table of Contents)
-1. [⚖️ 核心法规解读 (Core Regulations)](#️-核心法规解读-core-regulations)
-2. [🚢 物流与海关实务 (Logistics & Customs)](#-物流与海关实务-logistics--customs)
-3. [🔬 认证与检测机构推荐 (Certification Bodies)](#-认证与检测机构推荐-certification-bodies)
-4. [📚 供应链管理与合规框架 (Frameworks & Models)](#-供应链管理与合规框架-frameworks--models)
-5. [💻 常用软件与数字化工具 (Software & Tools)](#-常用软件与数字化工具-software--tools)
-6. [📋 出口企业必备核心文件清单 (Key Documents Checklist)](#-出口企业必备核心文件清单-key-documents-checklist)
-7. [📰 行业报告与研究 (Reports & Research)](#-行业报告与研究-reports--research)
-8. [💡 成功案例与最佳实践 (Case Studies)](#-成功案例与最佳实践-case-studies)
-9. [🤖 AI 与新兴技术 (AI & Emerging Technologies)](#-ai-与新兴技术-ai--emerging-technologies)
-10. [🤝 行业社区与展会 (Community & Events)](#-行业社区与展会-community--events)
-11. [🤝 关于 Hansato (About Us)](#-关于-hansato-about-us)
+### 🚀 驾驭欧盟市场？让我们助您一臂之力
+理解欧盟法规固然复杂，但您无需独自面对。**汉萨拓**通过双实体架构运营：**汉萨拓欧洲有限公司**（爱沙尼亚）作为您的欧盟合规枢纽和登记进口商接口，而**汉萨拓国际有限公司**（香港）管理亚洲端的执行、供应商验证及二级供应商映射。这种架构确保了跨境监管的确定性。
+
+👉 **[访问汉萨拓官网](https://www.hansato.com/zh)** 查看我们的最新简报：工程竹材采购尽职调查、GPSR执法现实、Incoterms合规风险等。
 
 ---
 
-## ⚖️ 核心法规解读 (Core Regulations)
-*了解这些法规是进入欧盟市场的第一步。请务必确认您的产品类别是否受以下法规约束：*
+## 📌 目录
 
-- **CBAM (碳边境调节机制)**  
-  欧盟针对高碳排放产品（钢铁、铝、水泥、化肥、电力、氢）征收的碳关税。过渡期已结束，2026年起进入全面实施阶段。出口企业必须准确核算并报告产品的隐含碳排放量（Scope 1 & Scope 2），否则欧盟进口商将面临高额清缴费用。
-- **EUDR (欧盟零毁林法案)**  
-  要求进入欧盟市场的特定商品（木材、橡胶、大豆、咖啡、可可、牛、棕榈油及其衍生品）必须提供“尽职调查声明”，并附带精确的地理坐标，证明其生产未导致2020年12月31日之后的森林砍伐。
-- **CSDDD (企业可持续发展尽职调查指令)**  
-  要求大型欧盟企业及其全球供应链上下游合作伙伴，必须主动识别、预防和减轻供应链中的人权与环境负面影响。不合规可能导致巨额罚款或被直接剔除出欧洲买家供应链。
-- **EU Forced Labour Regulation (欧盟强迫劳动法规)**  
-  禁止在欧盟市场上投放、出口或使用由强迫劳动制造的产品。海关有权对疑似产品进行扣留并要求企业提供完整的供应链溯源证明。
-- **PPWR (包装和包装废弃物法规)**  
-  对进入欧盟的所有产品包装提出严格要求，包括可回收性设计、强制性再生塑料含量比例，以及清晰的废弃物分类标签。
-- **ESPR (可持续产品生态设计法规) & DPP (数字产品护照)**  
-  要求产品在设计阶段就考虑耐用性、可维修性和可回收性。未来将强制要求通过二维码提供“数字产品护照”，披露全生命周期的环境影响和材料成分。
-- **传统合规基石**: [CE 标志指令](#), [RoHS (有害物质限制)](#), [REACH (化学品注册、评估、许可和限制)](#)
+- [⚖️ 核心法规解读](#️-核心法规解读)
+- [🌿 可持续材料与绿色建筑](#-可持续材料与绿色建筑)
+- [⚖️ 贸易术语与风险转移](#️-贸易术语与风险转移)
+- [🌏 亚太与全球贸易枢纽](#-亚太与全球贸易枢纽)
+- [📊 物流与市场洞察](#-物流与市场洞察)
+- [📚 框架与模型](#-框架与模型)
+- [📋 模板与清单](#-模板与清单)
+- [🔗 实用链接与主要来源](#-实用链接与主要来源)
 
 ---
 
-## 🚢 物流与海关实务 (Logistics & Customs)
-- **AEO (经认证的经营者) 互认**: 中国海关与欧盟海关已实现 AEO 互认。拥有中国 AEO 高级认证的企业在出口欧盟时，可享受降低查验率、优先通关等便利措施。
-- **EORI 号码 (经济运营者注册和识别码)**: 虽然由欧盟进口商申请，但中国出口商必须确保在所有商业发票、装箱单和提单上准确提供买方的 EORI 号码，否则货物将被海关扣留。
-- **IOSS (进口一站式服务)**: 适用于货值不超过 150 欧元的跨境电商 B2C 包裹。通过 IOSS，增值税 (VAT) 可在销售时收取，避免货物在欧盟海关被滞留或向消费者二次收费。
-- **Incoterms 2020 (国际贸易术语)**: 建议出口商谨慎使用 DDP (完税后交货) 条款，除非您在欧盟有注册的税务实体。通常推荐使用 DAP (目的地交货)，由欧洲买家自行处理进口清关和 VAT 缴纳。
+## ⚖️ 核心法规解读
+
+了解这些法规是进入欧盟市场的第一步。请务必确认您的产品类别是否受以下法规约束：
+
+- **CBAM (碳边境调节机制)** – 欧盟针对高碳排放产品征收的碳关税。过渡期已结束，2026年起进入全面实施阶段。出口企业必须准确核算并报告产品的隐含碳排放量。
+- **EUDR (欧盟零毁林法案)** – 要求进入欧盟市场的特定商品提供“尽职调查声明”，并附带精确地理坐标，证明其生产未导致2020年12月31日之后的森林砍伐。*注：竹材的分类界定仍在演变中。*
+- **CSDDD (企业可持续发展尽职调查指令)** – 要求大型欧盟企业及其全球供应链上下游合作伙伴，主动识别、预防和减轻人权与环境负面影响。
+- **GPSR (通用产品安全法规)** – 取代旧的MDD/LVD。引入严格的责任人(RP)、技术文件和批次追溯要求。
+- **PPWR (包装和包装废弃物法规)** – 2026年8月生效。统一欧盟包装规则，禁用某些一次性塑料，强制要求可回收性设计。
+- **EU Battery Regulation (欧盟电池法规)** – 引入“电池护照”，要求披露碳足迹、再生含量和供应链尽职调查数据。
+- **DPP (数字产品护照)** – 即将适用于建筑和纺织产品的机器可读生命周期数据载体要求。
 
 ---
 
-## 🔬 认证与检测机构推荐 (Certification Bodies)
-*选择具有欧盟认可资质 (Notified Body / 公告机构) 的检测机构至关重要。以下机构在中国均设有分支机构并提供专业的中文服务：*
-- **SGS (通标标准)**: 全球领先的检验、鉴定、测试和认证机构，覆盖全行业，尤其在 CBAM 碳核查和供应链审核方面经验丰富。
-- **TÜV Rheinland (德国莱茵TÜV)**: 在电子电气、工业设备、光伏及汽车供应链合规方面具有极高权威性。
-- **Intertek (天祥集团)**: 提供全面的 CE 认证、CBAM 碳核查及纺织品/消费品测试服务。
-- **Bureau Veritas (必维国际)**: 在供应链社会责任审核 (如 SMETA) 和 EUDR 尽职调查方面拥有深厚积累。
+## 🌿 可持续材料与绿色建筑
+
+面向建筑师、规格制定者和采购团队，旨在满足LEED、BREEAM、DGNB或WELL认证要求。
+
+- **工程竹材采购尽职调查指南** – 涵盖含水率稳定性、胶粘剂REACH合规、结构性能批次测试、EUDR溯源、EPD认证及BIM集成的法医级验证协议。[阅读工程竹材出口欧盟完整简报](https://www.hansato.com/zh/gongcheng-zhucai-chukou-oumeng-epd-bim)
+- **EPD标准 (ISO 14025)** – 绿色建筑积分所需的III型环境产品声明。务必验证供应商持有在认可平台（如Environdec、IBU）发布的有效EPD。
+- **BIM集成要求** – 开放格式BIM对象（IFC 4.x、COBie），需嵌入材料属性并与EPD元数据关联。公共采购和数字孪生工作流的必备条件。
+- **可持续建筑材料中心** – 浏览汉萨拓所有关于环保采购与合规的简报。[浏览欧盟贸易合规主题页面](https://www.hansato.com/zh/topics/ou-meng-mao-yi-he-gui)
 
 ---
 
-## 📚 供应链管理与合规框架 (Frameworks & Models)
-- **ISO 14064 / ISO 14067**: 国际公认的温室气体核算与产品碳足迹标准，是应对 CBAM 和欧洲买家碳数据要求的基础。
-- **EcoVadis**: 全球领先的企业可持续发展评级平台。许多欧洲大型采购商要求其供应商必须达到 EcoVadis 铜牌或银牌以上评级。
-- **SCOR 模型 (供应链运作参考模型)**: 行业标准的供应链评估框架，涵盖计划、采购、制造、交付、退货和赋能六大流程。
-- **可持续供应链框架 (UNEP)**: 联合国环境规划署发布的指南，帮助企业在供应链运营中整合 ESG (环境、社会和治理) 实践。
+## ⚖️ 贸易术语与风险转移
+
+理解贸易术语如何影响监管责任和所有权归属。
+
+- **Incoterms作为数据闸门** – 理解FOB、CIF和DDP条款如何影响GPSR数据所有权、CBAM报告责任和EUDR尽职调查义务。[阅读Incoterms合规风险与GPSR数据所有权简报](https://www.hansato.com/incoterms-compliance-risk-gpsr-data-ownership)
+- **登记进口商责任** – 为什么物理风险转移 ≠ 监管责任转移。严格责任原则适用于任何贸易术语选择。
+- **DDP红旗警示** – 当DDP将过多合规负担转移给无本地基础设施的非欧盟卖家时。考虑FCA/DAP替代方案以实现更安全的市场准入。
 
 ---
 
-## 💻 常用软件与数字化工具 (Software & Tools)
-- **Odoo / ERPNext**: 强大的开源 ERP 套件，提供库存、采购和物流模块，适合中小型出口企业实现基础数字化管理。
-- **SAP SCM / Oracle SCM Cloud**: 企业级供应链管理系统，提供高级计划、物流执行和深度数据分析，适合大型制造企业。
-- **Project44 / FourKites**: 领先的实时供应链可视化和货运追踪平台，满足欧洲买家对物流透明度的高要求。
+## 🌏 亚太与全球贸易枢纽
+
+利用香港的中立司法管辖区优势及靠近亚洲制造集群的地理位置，实现合规的全球贸易。
+
+- **全球采购合作伙伴架构** – 通过双枢纽模型（亚洲执行 + 欧盟合规）实现IP保护、二级供应商可见性及欧盟合规桥接。[阅读亚洲全球采购合作伙伴完整简报](https://www.hansato.com/zh/quanqiu-caigou-hezuo-huoban)
+- **香港合规网关** – 使用HK实体进行模具所有权登记、付款路由、争议解决及中立管辖权下的签约，服务于出口欧盟的供应链。[阅读香港合规网关与欧盟供应链完整简报](https://www.hansato.com/hong-kong-compliance-gateway-eu-supply-chain)
+- **中国供应商验证方法** – 超越宣传册和证书的实体、工厂及单证实质审计。[阅读转口贸易陷阱与原产地合规完整简报](https://www.hansato.com/zh/zhuankou-maoyi-xianjing-yuanchandi-hegui)
+- **越南及东南亚采购** – 用于关税多元化和供应链韧性的替代制造中心。[探索战略寻源主题](https://www.hansato.com/zh/topics/ou-meng-mao-yi-he-gui)
 
 ---
 
-## 📋 出口企业必备核心文件清单 (Key Documents Checklist)
-*在应对欧洲买家合规审核或法规申报时，请确保您的工厂已准备好以下核心文件：*
-1. **原材料溯源证明**: 供应商清单、采购发票及原材料原产地证明（应对 EUDR 和强迫劳动法规）。
-2. **能源消耗与碳排放数据**: 过去 12 个月的电费账单、化石燃料消耗记录，以及基于 ISO 14064 的初步碳足迹核算报告（应对 CBAM）。
-3. **产品技术文件 (TCF)**: 包含产品图纸、BOM 表、测试报告及符合性声明 (DoC)，这是获得 CE 标志的必备条件。
-4. **劳工与环境合规声明**: 员工花名册、工时记录、社保缴纳证明，以及环评批复和排污许可证（应对 CSDDD 和买家社会责任审核）。
-5. **包装合规说明**: 包装材料成分说明及可回收性标识设计图（应对 PPWR）。
+## 📊 物流与市场洞察
+
+- **欧洲合同物流市场 (2025-2030)** – 2025年估值3020亿美元，预计2030年将达到3540亿美元，复合年增长率为3.23%。
+- **欧洲物流协会 (ELA)** – 为欧洲物流专业人员提供研究、网络和最佳实践的行业机构。
+- **Eurostat运输与物流数据** – 欧盟官方统计数据，涵盖货运、物流绩效和供应链指标。
+- **供应链韧性仪表盘 (欧盟委员会)** – 跟踪关键部门供应链脆弱性和依赖性的互动工具。
 
 ---
 
-## 📰 行业报告与研究 (Reports & Research)
-- **European Supply Chain Report**: 欧洲物流宏观趋势、风险及韧性战略分析。
-- **ESG in European Logistics**: 欧洲物流行业的可持续发展与 ESG 趋势报告。
-- **China-EU Trade Dynamics**: 中欧贸易动态分析，涵盖关税政策、产业转移及供应链重构趋势。
+## 📚 框架与模型
+
+- **SCOR模型 (供应链运作参考模型)** – 由ASCM开发的行业标准供应链评估框架，涵盖计划、采购、制造、交付、退货和赋能六大流程。
+- **Gartner供应链成熟度模型** – 从流程、组织、技术和绩效维度评估和提升供应链能力的框架。
+- **可持续供应链框架 (UNEP)** – 联合国环境规划署发布的指南，帮助企业在供应链运营中整合ESG实践。
+- **区块链供应链应用 (EU Blockchain Observatory)** – 在物流和溯源中实施区块链解决方案的框架和指南。
 
 ---
 
-## 💡 成功案例与最佳实践 (Case Studies)
-- **案例 1: 浙江纺织厂应对 EUDR**  
-  *痛点*: 欧洲品牌方要求提供棉花种植园的地理坐标，否则取消订单。  
-  *解决方案*: 工厂引入数字化供应链管理系统，向上游追溯至新疆具体种植合作社，获取了符合 EUDR 要求的经纬度数据，并通过了第三方尽职调查审核。  
-  *结果*: 成功保住年度 500 万欧元订单，并成为该品牌的“绿色供应链标杆供应商”。
-- **案例 2: 广东铝型材出口商准备 CBAM**  
-  *痛点*: 德国客户警告，若无法提供准确的隐含碳排放数据，将转单至土耳其供应商。  
-  *解决方案*: 在全面实施前，该工厂提前一年开始规范车间电表读数与原材料采购发票的归档，并聘请专业机构进行了首次 CBAM 模拟核算。  
-  *结果*: 顺利协助德国客户完成了首批 CBAM 证书清缴，避免了高额罚款，并借此机会优化了车间能耗，降低了长期生产成本。
+## 📋 模板与清单
+
+来自汉萨拓贸易合规团队的可下载法医级验证工具。
+
+- **工程竹材尽职调查清单** – 6部分协议，涵盖含水率、胶粘剂、结构、EUDR、生产实质及EPD/BIM/DPP就绪度。[下载工程竹材采购尽职调查清单PDF](https://www.hansato.com/downloads/hansato-engineered-bamboo-sourcing-checklist-v1.pdf)
+- **全球采购枢纽尽职调查清单** – 评估供应商运营实质而非仅看证书。[下载全球采购枢纽尽职调查清单PDF](https://www.hansato.com/downloads/hansato-global-sourcing-hub-due-diligence-checklist-2026-EN.pdf)
+- **转口贸易与原产地法证清单** – 验证实质性改变并避免非法原产地洗白。[下载转口贸易原产地法证清单PDF](https://www.hansato.com/downloads/hansato-transshipment-origin-forensics-checklist-2026-EN.pdf)
+- **工业组件供应商审计清单** – 精密制造合作伙伴的技术验证。[下载工业组件供应商审计清单PDF](https://www.hansato.com/downloads/hansato-industrial-components-sourcing-supplier-audit-checklist-2026-EN.pdf)
+- **EUDR地理定位与尽职调查清单** – 准备地块级采收数据和物料平衡对账。[下载EUDR地理定位尽职调查清单PDF](https://www.hansato.com/downloads/hansato-eudr-geolocation-due-diligence-checklist-2026-EN.pdf)
+- **欧盟实体与市场准入准备清单** – 审计责任人集成、技术文件维护和响应协议。[下载欧盟实体市场准入准备清单PDF](https://www.hansato.com/downloads/hansato-eu-market-entry-checklist-2026-EN.pdf)
 
 ---
 
-## 🤖 AI 与新兴技术 (AI & Emerging Technologies)
-- **EU AI Act (欧盟人工智能法案) 与供应链**: 了解 AI 法案的风险分类及合规时间表，特别是涉及自动化招聘或供应链风险评估的 AI 系统。
-- **数字孪生 (Digital Twins)**: 通过物理供应链的虚拟副本进行模拟，实现库存和物流路线的实时优化，降低中断风险。
-- **IoT (物联网) 在物流中的应用**: 使用智能传感器跨境追踪库存状态（温度、湿度、震动），满足高价值或敏感货物（如医药、精密仪器）的合规要求。
+## 🔗 实用链接与主要来源
+
+### 监管机构与标准
+- [EUR-Lex: Regulation (EU) 2023/1115 (EUDR)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R1115)
+- [EUR-Lex: Regulation (EU) 2023/988 (GPSR)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0988)
+- [EUR-Lex: Regulation (EU) 2025/40 (PPWR)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32025R0040)
+- [ISO 14025:2006 (Type III EPDs)](https://www.iso.org/standard/38131.html)
+- [buildingSMART IFC Standards](https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2_TC1/HTML/)
+
+### 汉萨拓知识库
+- [浏览所有贸易合规简报](https://www.hansato.com/zh/topics)
+- [联系汉萨拓贸易合规团队](https://www.hansato.com/zh/lianxi)
 
 ---
 
-## 🤝 行业社区与展会 (Community & Events)
-- **LogiMAT (德国斯图加特)**: 欧洲最大的内部物流贸易展。
-- **Transport Logistic (德国慕尼黑)**: 全球领先的物流、交通、IT 和供应链管理贸易展。
-- **Canton Fair (广交会)**: 欧洲买家寻找合规中国供应商的重要线下渠道，建议参展商提前准备好 ESG 合规宣传册。
-- **线上社区**: 知乎“供应链管理”话题、微信公众号“跨境合规观察”等，是获取最新中文政策解读的优质渠道。
+## 🙋 贡献指南
+
+欢迎提交Pull Requests和建议！如果您有属于此列表的资源，请开启Issue或提交PR。
+
+**维护者：** [汉萨拓欧洲有限公司](https://www.hansato.com/zh) – 我们通过供应链和合规咨询服务，帮助全球公司进入并扩大在欧洲市场的业务。
 
 ---
 
-## 🤝 关于 Hansato (About Us)
-**Hansato** 是一家总部位于爱沙尼亚塔林的 B2B 供应链咨询与采购服务机构。  
-我们致力于连接欧洲买家与经过严格认证的亚洲优质供应商。我们不仅提供采购服务，更致力于**赋能供应链上游**，帮助中国工厂理解并达到欧洲的合规标准，实现双赢。
+## 📄 许可证
 
-> 🚀 **需要专业的合规指导或供应链审核？**  
-> 欢迎通过我们的网站预约一次 **15分钟的免费供应链诊断咨询**。  
-> 🔗 [联系 Hansato 团队](https://www.hansato.com/contact)
+本作品遵循 [MIT License](LICENSE)。您可以自由分享和改编本指南，前提是保留原始版权声明并注明归属于Hansato Global Sourcing。
 
 ---
 
-## 📄 License
-This work is licensed under the [MIT License](../LICENSE). You are free to share and adapt this guide, provided you retain the original copyright notice and attribution to Hansato Global Sourcing.
-
-*Made with ❤️ and FOSS by Hansato Global Sourcing.*
+*本精选列表基于 "awesome" 列表格式。衷心感谢原创作者们的灵感启发。*
