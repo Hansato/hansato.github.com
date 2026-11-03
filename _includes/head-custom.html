@@ -1,0 +1,61 @@
+<!-- Hansato Brand Assets -->
+<link rel="icon" type="image/png" href="https://www.hansato.com/wp-content/uploads/2026/09/hansato-logo-blue-01-scaled.png" sizes="32x32">
+<link rel="apple-touch-icon" href="https://www.hansato.com/wp-content/uploads/2026/09/hansato-logo-blue-01-scaled.png">
+
+<style>
+  /* === HANSATO BRAND STYLING === */
+  :root {
+    --hansato-navy: #0a1d3d;
+    --hansato-amber: #ffb300;
+    --hansato-light: #f6f4ef;
+    --hansato-gray: #6b7280;
+  }
+
+  /* Header logo bar */
+  .site-header::before, header::before, .page-header::before {
+    content: '';
+    display: block;
+    height: 56px;
+    background: var(--hansato-navy) url('https://www.hansato.com/wp-content/uploads/2026/09/hansato-logo-blue-01-scaled.png') no-repeat 20px center;
+    background-size: auto 36px;
+    border-bottom: 3px solid var(--hansato-amber);
+    margin-bottom: 2rem;
+  }
+
+  /* Link colors */
+  a { color: var(--hansato-navy); text-decoration: underline; text-underline-offset: 2px; }
+  a:hover { color: var(--hansato-amber); }
+
+  /* Section headings with amber accent bar */
+  h2, h3, h4 {
+    color: var(--hansato-navy);
+    border-left: 4px solid var(--hansato-amber);
+    padding-left: 12px;
+    margin-top: 2rem;
+  }
+
+  /* Tables */
+  table { border-collapse: collapse; width: 100%; margin: 1.5rem 0; }
+  th { background: var(--hansato-navy); color: #fff; padding: 10px 14px; text-align: left; font-weight: 600; }
+  td { padding: 10px 14px; border-bottom: 1px solid #e5e7eb; }
+  tr:nth-child(even) { background: var(--hansato-light); }
+
+  /* Blockquotes / callouts */
+  blockquote {
+    border-left: 4px solid var(--hansato-amber);
+    background: var(--hansato-light);
+    padding: 14px 18px;
+    margin: 1.5rem 0;
+    color: var(--hansato-navy);
+    font-style: normal;
+  }
+
+  /* Footer branding */
+  footer, .site-footer {
+    border-top: 2px solid var(--hansato-amber);
+    margin-top: 3rem;
+    padding-top: 1rem;
+    font-size: 0.85em;
+    color: var(--hansato-gray);
+  }
+</style>
