@@ -1,5 +1,5 @@
-<!-- Hansato Brand Assets - Fully Self-Contained -->
-<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAMklEQVRYR+3BAQ0AAADCIPunfg43YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBu4AAB/gIJGAAAAABJRU5ErkJggg==" sizes="32x32">
+<!-- Hansato Brand Assets - Dark Theme Header -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%230a1d3d'/%3E%3Ctext x='16' y='22' font-family='Arial,sans-serif' font-weight='bold' font-size='18' fill='%23ffffff' text-anchor='middle'%3EH%3C/text%3E%3C/svg%3E">
 
 <style>
   :root {
@@ -7,22 +7,25 @@
     --hansato-amber: #ffb300;
     --hansato-light: #f6f4ef;
     --hansato-gray: #6b7280;
+    --hansato-white: #ffffff;
   }
 
-  /* Header logo bar using inline SVG data URI */
+  /* === DARK HEADER BAR WITH WHITE LOGO === */
   .site-header::before, header::before, .page-header::before {
     content: '';
     display: block;
-    height: 56px;
-    background: var(--hansato-navy) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 40'%3E%3Ctext x='10' y='28' font-family='Arial,sans-serif' font-weight='bold' font-size='24' fill='%23ffffff'%3EHANSATO%3C/text%3E%3Crect x='10' y='34' width='120' height='3' fill='%23ffb300'/%3E%3C/svg%3E") no-repeat 20px center;
-    background-size: auto 36px;
+    height: 60px;
+    background: var(--hansato-navy) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 40'%3E%3Ctext x='12' y='28' font-family='Arial,Helvetica,sans-serif' font-weight='bold' font-size='22' fill='%23ffffff' letter-spacing='2'%3EHANSATO%3C/text%3E%3Crect x='12' y='34' width='108' height='3' rx='1' fill='%23ffb300'/%3E%3C/svg%3E") no-repeat 24px center;
+    background-size: auto 32px;
     border-bottom: 3px solid var(--hansato-amber);
     margin-bottom: 2rem;
   }
 
+  /* Links */
   a { color: var(--hansato-navy); text-decoration: underline; text-underline-offset: 2px; }
   a:hover { color: var(--hansato-amber); }
 
+  /* Headings with amber accent */
   h2, h3, h4 {
     color: var(--hansato-navy);
     border-left: 4px solid var(--hansato-amber);
@@ -30,11 +33,13 @@
     margin-top: 2rem;
   }
 
+  /* Tables */
   table { border-collapse: collapse; width: 100%; margin: 1.5rem 0; }
-  th { background: var(--hansato-navy); color: #fff; padding: 10px 14px; text-align: left; font-weight: 600; }
+  th { background: var(--hansato-navy); color: var(--hansato-white); padding: 10px 14px; text-align: left; font-weight: 600; }
   td { padding: 10px 14px; border-bottom: 1px solid #e5e7eb; }
   tr:nth-child(even) { background: var(--hansato-light); }
 
+  /* Blockquotes */
   blockquote {
     border-left: 4px solid var(--hansato-amber);
     background: var(--hansato-light);
@@ -44,6 +49,7 @@
     font-style: normal;
   }
 
+  /* Footer */
   footer, .site-footer {
     border-top: 2px solid var(--hansato-amber);
     margin-top: 3rem;
